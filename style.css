@@ -7,7 +7,7 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(/Mata.jpg);
+    background-image: url(/img/Mata.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -266,20 +266,20 @@ h5{
     cursor: pointer;
 }
 .ball{
-    background-image: url(/BC.jpg);
+    background-image: url(/img/BC.jpg);
    
     background-size: cover;
     background-position: center;
 }
 
 .game{
-    background-image: url(/konsol.jpg);
+    background-image: url(/img//konsol.jpg);
     
     background-size: cover;
     background-position: center;
 }
 .Movie{
-    background-image: url(/movie.jpg);
+    background-image: url(/img/movie.jpg);
    
     background-size: cover;
     background-position: center;
