@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 .hero{
-    height: 100vh;
-    width: 100%;
-    background-image: url(Mata.jpg);
+    height: 120vh;
+    width: 100vh;
+    background-image: url(mount.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -18,6 +18,9 @@ nav{
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
+}
+nav ul {
+    flex-wrap: wrap; 
 }
 .logo{
     color: white;
@@ -60,6 +63,7 @@ nav ul li a:hover{
     left: 8%;
     transform: translateY(-50%);
 }
+
 h1{
     color: white;
     margin: 20px 0px 20px;
@@ -71,7 +75,7 @@ h3{
     margin-bottom: 20px ;
 }
 h4{
-    color: #fcfc;
+    color: rgba(61, 61, 61, 0.8);
     letter-spacing: 2px;
     font-size: 20px;
 }
@@ -101,7 +105,10 @@ h4{
     top: 6px;
     right: 6px;
 }
-
+.newslatter form input:last-child:hover{
+    background-color: rgb(34, 190, 252);
+    transition: 0.3;
+}
 .about{
     width: 100%;
     padding: 100px 0;
@@ -109,7 +116,8 @@ h4{
 }
 .about img{
     height: auto;
-    width: 430px;
+    width: 25vw;
+    border-radius: 50%;
 }
 .about-text{
     width: 550px;
@@ -468,6 +476,9 @@ footer p:nth-child(3):hover, p:nth-child(4):hover{
     nav h2.logo {
         font-size: 20px;
     }
+    body {
+        font-size: 14px;
+    }
     h1 {
         font-size: 30px;
     }
@@ -479,10 +490,16 @@ footer p:nth-child(3):hover, p:nth-child(4):hover{
     }
     nav ul {
         font-size: 14px;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
     }
-
+    .hero .content {
+        padding: 10px;
+    }
     .hero .content h1 {
-        font-size: 24px;
+        font-size: 20px;
+        line-height: 1.2;
     }
     .hero h2 {
         font-size: 1.2rem;
@@ -493,17 +510,27 @@ footer p:nth-child(3):hover, p:nth-child(4):hover{
     }
     
     .hero .content h3 {
-        font-size: 18px;
+        font-size: 16px;
     }
-
+    .about-text {
+        padding: 10px;
+    }
     .about .main img {
         width: 100%;
         height: auto;
     }
-
+    .card {
+        width: 95%;
+        margin: 10px auto;
+    }
     .box .card {
         width: 100%;
         padding: 10px;
+    }
+    .social a {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
     }
 }
 html, body {
